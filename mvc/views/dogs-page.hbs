@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Nuestros perros</h1>
+    <p>Vienen de la BBDD y son la caña</p>
+    <hr>
+    <ul>
+        {{#each dogs}}
+        <li>El perro {{name}} tiene {{age}} años y es de colorcito {{color}}.</li>
+        {{/each}}
+
+    </ul>
+    <hr>
+    <a href="/" class="btn btn-dark">Volver</a>
+</div>
